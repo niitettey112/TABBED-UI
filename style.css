@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    background-color: #ECECF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+    background-color: #F8F7FC;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,.2);
+}
+
+.tab__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.tab__box .tab__btn{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    transition: .5s ease .0s;
+}
+
+.tab__box .active{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0,0,0,.2);
+} 
+
+.content__section{
+    padding: 15px;
+    /* display: none; */
+}
+
+.details__content{
+    display: none;
+}
+
+.content__section .details__content h1{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    /* letter-spacing: 1px; */
+}   
+
+.content__section .details__content p{
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.content__section .details__content .color__bx{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 23px 10px;
+}
+
+.color__bx .color__1{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid #b4b4b44b;
+    cursor: pointer;
+}
+
+.color__bx .color__1 span{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.color__bx .color__1:nth-child(1) span{
+    background-color: #BAC4E0;
+}
+.color__bx .color__1:nth-child(2) span{
+    background-color: #E9EFFD;
+}
+.color__bx .color__1:nth-child(3) span{
+    background-color: #f2f3f6;
+}
+.color__bx .color__1:nth-child(4) span{
+    background-color: #8f95a7;
+}
+.color__bx .color__1:nth-child(5) span{
+    background-color: #5282f6;
+}
+.color__bx .color__1:nth-child(6) span{
+    background-color: #222e4e;
+}
+
+.color__bx .color__1 h1{
+    padding: 0;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.details__content .fonts h1{
+    padding: 0;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.details__content .fonts p{
+    padding-bottom: 5px;
+    font-weight: 500;
+    letter-spacing: .3px;
+}
+
+.tutorials__content{
+    margin-top: 10px;
+}
+
+.tutorials__content h1{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tutorials__content p{
+    font-size: 12px;
+    color: #8d8d8d;
+    padding-bottom: 10px;
+}
+
+.tutorials__content .f__bx{
+    margin-top: 10px;
+}
+
+.tutorials__content .f__bx h1,
+.tutorials__content .s__bx h1{
+    font-size: 12px;
+    color: #8d8d8d;
+    padding-bottom: 10px;
+}
+
+.tutorials__content .f__bx .bx1{
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.f__bx .bx1 .bx__text,
+.s__bx .bx1 .bx__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.bx1 .bx__text h2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bx1 a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.tutorials__content .f__bx .bx2{
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.f__bx .bx2 .bx__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.bx2 .bx__text h2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bx2 a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.tutorials__content .s__bx .bx1{
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.s__bx{
+    margin-top: 20px;
+}
+
+.footer__text{
+    margin-top: 25px;
+    padding: 0px 20px;
+}
+
+.tutorials__content .footer__text p{
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 13px;
+}
+
+.tutorials__content .footer__text a{
+    color: #ff2d42;
+}
